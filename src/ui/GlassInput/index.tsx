@@ -1,0 +1,1 @@
+export const GlassInput = () => null; // placeholder

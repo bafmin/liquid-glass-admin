@@ -7,8 +7,31 @@ A React-based admin dashboard scaffold showcasing Apple’s Liquid Glass (glassm
 
 ## Getting Started
 
-```bash
+bash
 git clone https://github.com/bafmin/liquid-glass-admin.git
 cd liquid-glass-admin
 npm install
 npm start
+
+
+## Folder Structure
+
+text
+public/
+src/
+├─ components/
+├─ common/
+├─ ui/
+│  ├─ GlassPanel/
+│  ├─ GlassCard/
+│  ├─ GlassButton/
+│  └─ GlassInput/
+├─ contexts/
+│  ├─ SidebarContext/
+│  └─ ThemeContext/
+├─ hooks/
+├─ pages/
+└─ index.tsx
+.gitignore
+package.json
+tsconfig.json
